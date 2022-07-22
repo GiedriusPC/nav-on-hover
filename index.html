@@ -1,42 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Friday Challenge Nav-on-hover</title>
-    <link rel="stylesheet" href="./styles/layout.css">
-</head>
-<body>
-    <header class="menu">
-        <div>
-            <img class="bit" src="./assets/bit.svg" alt="BIT">            
-        </div>    
-        <div>
-            <img class="line23" src="./assets/line23.svg" alt="Line 23">
-        </div>    
-        <div>
-            <img class="home" src="./assets/home.svg" alt="Home">
-            <a href="#">Home</a>            
-        </div>    
-        <div>
-            <img class="Calendar" src="./assets/calendar.svg" alt="Calendar">
-            <a href="#">Calendar</a> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/layout.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+    </style>
+    <title>Bit page</title>
+  </head>
+  <body>
+    <main>
+      <nav class="menu">
+        <a href="#"><img src="./assets/logo.svg" alt="" /></a>
+
+        <div class="line"></div>
+
+        <div class="home link">
+          <a href="#"><img src="./assets/home.svg" alt="" /></a>
+          <a class="words" href="#">home</a>
         </div>
-        <div>
-            <img class="FE" src="./assets/fe.svg" alt="FE">
-            <a href="#">FE</a>            
+
+        <div class="link">
+          <a href="#"><img src="./assets/calendar.svg" alt="" /></a>
+          <a class="words" href="#">calendar</a>
         </div>
-        <div>
-            <img class="Games" src="./assets/games.svg" alt="Games">
-            <a href="#">Games</a>
-        </div>    
-    </header>
-    <div>
-        <img class="line24" src="./assets/line24.svg" alt="Line 24">        
-    </div>
-    <div>
-        <p>&copy; 2022 - All rights not reserved</p>
-    </div>    
-</body>
+
+        <div class="link">
+          <a href="#"><img src="./assets/FE.svg" alt="" /></a>
+          <a class="words" href="#">FE</a>
+        </div>
+
+        <div class="link">
+          <a href="#"><img src="./assets/gaming.svg" alt="" /></a>
+          <a class="words" href="#">games</a>
+        </div>
+      </nav>
+      <footer>
+        <div class="footerbox">
+          <div class="footerline"></div>
+          <p>&#169; Blatic Insititute of Technology</p>
+        </div>
+      </footer>
+    </main>
+  </body>
 </html>
